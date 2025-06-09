@@ -17,7 +17,7 @@ No se usaron frameworks ni librerías externas, con el objetivo de practicar est
 ## ✍️ Proceso de desarrollo
 
 1. Planificación: decidí qué secciones incluir y qué contenido mostrar.
-2. Estructura HTML: escribí el archivo index.html con las etiquetas semánticas necesarias (<section>, <h2>, <p>, etc.).
+2. Estructura HTML: escribí el archivo index.html con las etiquetas semánticas necesarias ('<section>', '<h2>', '<p>', etc.).
 3. Diseño básico: creé el archivo style.css para aplicar estilos visuales, como tipografía, colores, márgenes y sombras.
 4. Revisión en el navegador: abrí el archivo index.html en el navegador para ir viendo los cambios en tiempo real.
 5. Ajustes: modifiqué estilos y textos para mejorar la presentación y legibilidad.
