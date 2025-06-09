@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nelson's Porfolio</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Navbar con menú hamburguesa -->
+            <nav class="navbar">
+                     <!-- Logo -->
+                <div class="logo" >
+                    <a href="./index.html">
+                        <img src="./public/5008049536811249254.jpg" alt="profile picture - Nelson Salcedo" class="profile-pic">
+                        <span class="name">Nelson <strong class="last-name">SB</strong></span>
+                    </a>
+                </div>
+                        <!-- Enlaces de navegación -->
+                <ul class="nav-links">
+                    <li><a href="./index.html" onclick="closeMenu()">About me</a></li>
+                    <li><a href="./Projects.html" onclick="closeMenu()">Projects</a></li>
+                    <li><a href="./contac-me.html" onclick="closeMenu()">Contact me</a></li>
+                </ul>
+                <!--hamburgue menu-->
+                <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+        <main>
+                 <!-- section of proyects with Grid -->
+            <section id="portfolio" class="section">
+                <h2>Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <h3>Python Tiendecita</h3>
+                        <p>A program that allows the management of products for a store, allowing to add, delete, consult and edit a list. Built with Python using object-oriented programming principles.</p>
+                        <a class="link-project" href="#" target="_blank">View Project</a>
+                    </div>
+                    <div class="portfolio-item">
+                        <h3>Python Grade Calculator</h3>
+                        <p>A program that allows you to perform different operations with grades, 
+                            such as calculating the average, verifying approval, or searching for a 
+                            specific grade from a set. Features data validation and statistical analysis.</p>
+                        <a class="link-project" href="#" target="_blank">View Project</a>
+                    </div>
+                    <div class="portfolio-item">
+                        <h3>HTML portfolio</h3>
+                        <p>HTML portfolio that includes the use of CSS and is responsive in at least three different resolutions; for phones, tablets, and desktops.</p>
+                        <a class="link-project" href="#" target="_blank">View Project</a>
+                    </div>
+                    <div class="portfolio-item">
+                        <h3>HTML and CSS store</h3>
+                        <p>HTML Store that includes the use of CSS and is responsive in at least three different resolutions; for phones, tablets, and desktops.</p>
+                        <a class="link-project" href="#" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Nelson Salcedo. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
